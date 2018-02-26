@@ -3,62 +3,62 @@
     {
       "title" : "F.R.I.E.N.D.S 10 Seasons bluray",
       "price" : "$69.99",
-      "img" : "images/friends.jpg"
+      "img" : "./src/images/friends.jpg"
     },
     {
       "title" : "DeadPool Funko pop!",
       "price" : "$20.99",
-      "img" : "images/deadpool.jpg"
+      "img" : "./src/images/deadpool.jpg"
     },
     {
       "title" : "Gokú SSJ Blue Funko pop!",
       "price" : "$25.99",
-      "img" : "images/kokú.jpg"
+      "img" : "./src/images/kokú.jpg"
     },
     {
       "title" : "DeadPool Funko pop!",
       "price" : "$20.99",
-      "img" : "images/deadpool.jpg"
+      "img" : "./src/images/deadpool.jpg"
     },
     {
       "title" : "How I Met Your Mother the complete series",
       "price" : "$123.92",
-      "img" : "images/himym.jpg"
+      "img" : "./src/images/himym.jpg"
     },
     {
       "title" : "Mario Kart 8 Deluxe",
       "price" : "$52.88",
-      "img" : "images/mariokart.jpg"
+      "img" : "./src/images/mariokart.jpg"
     },
     {
       "title" : "Nintendo Switch",
       "price" : "$299.00",
-      "img" : "images/switch.jpg"
+      "img" : "./src/images/switch.jpg"
     },
     {
       "title" : "PS4 slim 1TB",
       "price" : "$299.00",
-      "img" : "images/ps4.jpg"
+      "img" : "./src/images/ps4.jpg"
     },
     {
       "title" : "The legend of Zelda: Breath of the wild",
       "price" : "$44.99",
-      "img" : "images/zelda.jpg"
+      "img" : "./src/images/zelda.jpg"
     },
     {
       "title" : "Super Mario Odyssey",
       "price" : "$48.66",
-      "img" : "images/odyssey.jpg"
+      "img" : "./src/images/odyssey.jpg"
     },
     {
       "title" : "Call Of Duty: WWII- PS$",
       "price" : "$39.99",
-      "img" : "images/callOfDuty.jpg"
+      "img" : "./src/images/callOfDuty.jpg"
     },
     {
       "title" : "Marshall Lee Adventure time plush",
       "price" : "$10.46",
-      "img" : "images/marshall lee.jpg"
+      "img" : "./src/images/marshall lee.jpg"
     }
   ]
 }

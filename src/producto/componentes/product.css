@@ -1,32 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
 .Product {
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
-  margin-right: 15px;
+  margin: 5em 2.3%;
   display: inline-block;
-  width: 260px;
+  width: 20%;
   vertical-align: top;
 }
 
-.Product:hover .Product-cover {
-  box-shadow: 0 0 10px rgba(0,0,0,.3);
-}
-
 .Product-cover {
-  transition: .3s;
-  box-shadow: 0 0 5px rgba(0,0,0,.3);
   height: 160px;
 }
 
 .Product-image {
   object-fit: cover;
+  background: black;
 }
 
 .Product-title {
   margin: 5px 0 0 0;
-  color: #44546b;
+  color: teal;
   white-space: normal;
 }
 
-.Product-author {
-  font-size: 12px;
-  margin: 5px 0 0 0;
+.Product-price {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
 }
+
+.Product button{
+  padding: 8px;
+  margin:5px 0;
+  background-color: #ad1616;
+  color: white;
+  border: none;
+}
+
+.Product button:hover{
+  background-color: teal;
+}
+
+

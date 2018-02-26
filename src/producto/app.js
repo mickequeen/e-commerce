@@ -6,9 +6,9 @@ $(document).ready(function(){
   })
   .done(function(response){
     let data = response.articulos
-    console.log(data)
+    //console.log(data)
     for(var i = 0; i < data.length; i++ ){
-      console.log(`<Product title="${data[i].title}" price="${data[i].price}" image="src/${data[i].img}"/>`)
+      //console.log(`<Product title="${data[i].title}" price="${data[i].price}" image="src/${data[i].img}"/>`)
 
     }
   })
