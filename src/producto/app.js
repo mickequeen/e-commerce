@@ -5,7 +5,12 @@ $(document).ready(function(){
     datatype: 'json'
   })
   .done(function(response){
-    console.log(response)
+    let data = response.articulos
+    console.log(data)
+    for(var i = 0; i < data.length; i++ ){
+      console.log(`<Product title="${data[i].title}" price="${data[i].price}" image="src/${data[i].img}"/>`)
+
+    }
   })
   .fail(function(error){
     console.log('failed')
