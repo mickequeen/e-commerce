@@ -1,9 +1,10 @@
 //console.log("hola");
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import {render} from 'react-dom';
+// se le coloca nombre a los componente para poder manipularlos y siempre se empieza con mayúscula
+import Product from './src/producto/componentes/product.js';
+// sección donde tiene que renderear
 const container = document.getElementById('app');
-const hola = <h1>lentooooooo!!!</h1>;
 
-ReactDOM.render(hola, app);
+render(<Product title="Título!" price="Precio" image="src/html5.jpg"/>, app);

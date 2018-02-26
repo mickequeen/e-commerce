@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mickequeen/e-commerce.git"
   },
-  "author": "Carol, Jocelyn Parada y Pamela Arteaga",
+  "author": "Carol Martínez, Jocelyn Parada y Pamela Arteaga",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.0",
