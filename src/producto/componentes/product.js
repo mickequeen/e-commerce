@@ -15,6 +15,7 @@ class Product extends Component {
           <h3 className="Product-title">{this.props.title}</h3>
           <p className="Product-price">{this.props.price}</p>
           <button>COMPRAR</button>
+          <div className="paypal-button-container"></div>
         </div>
       </div>
       )
