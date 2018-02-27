@@ -1,13 +1,21 @@
-// importando react
+/*
+*importando react
+*/
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './product.css';
 
-//creando componente product
+/*
+*creando componente product
+*/
 class Product extends Component {
-  //contiene componente html
+  /*
+  *contiene componente html
+  */
   render() {
-    //datos del componente
+    /*
+    *datos del componente
+    */
     return (
       <div className="Product">
         <div className="Product-cover">
@@ -18,16 +26,19 @@ class Product extends Component {
           <div className="paypal-button-container"></div>
         </div>
       </div>
-      )
-
+    )
   }
 }
 
-// para validar que los datos en las propiedades son del tipo adecuado
+/*
+*para validar que los datos en las propiedades son del tipo adecuado
+*/
 Product.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   price: PropTypes.string
 }
-// exportar componente
+/*
+*exportar componente
+*/
 export default Product;
