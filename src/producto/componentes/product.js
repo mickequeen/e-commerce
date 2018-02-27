@@ -29,4 +29,4 @@ Product.propTypes = {
   price: PropTypes.string
 }
 // exportar componente
-export default Product; 
+export default Product;

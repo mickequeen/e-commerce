@@ -3,6 +3,7 @@ import React from 'react';
 import {render} from 'react-dom';
 // se le coloca nombre a los componente para poder manipularlos y siempre se empieza con mayúscula
 import Productos from './src/producto/componentes/productos.js';
+import Paypal from './src/paypal/componentes/paypal.js';
 // datos api
 import data from './src/data.json';
 import Nav from './src/navegador/componente/nav.js';
