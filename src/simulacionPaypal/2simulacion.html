@@ -1,19 +1,20 @@
 
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<!-- Contenedor del botón de pago paypal -->
 <div class="paypal-button-container"></div>
 <script>
   // Render the PayPal button
   paypal.Button.render({
     // Set your environment
     env: 'sandbox', // sandbox | production
-    // Specify the style of the button
-    // PayPal Client IDs - replace with your own
-    // Create a PayPal app: https://developer.paypal.com/developer/applications/create
     client: {
+      // id del vendedor
       sandbox: 'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+      // Id del cliente
       production: 'AdR48mtPs5CD-FD8GE2wIuh2ysXRmGkHH67Rl823IcOc0y95o2oCSW6cujuIIxZWjoYuDW6cyTcj6MrC'
     },
 
+    // Función que retorla la transacción en paypal
     payment: function(data, actions) {
       return actions.payment.create({
         payment: {
@@ -23,6 +24,7 @@
         }
       });
     },
+    // Función que retorna un alerta cuando la transacción ha sido completada
     onAuthorize: function(data, actions) {
       return actions.payment.execute().then(function() {
         window.alert('Payment Complete!');
